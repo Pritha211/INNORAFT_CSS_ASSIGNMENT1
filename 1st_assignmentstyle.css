@@ -1,0 +1,41 @@
+body{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   height: 100vh;
+}
+
+.firstdiv{
+   background-color: pink;
+   height: 100px;
+   margin: 2%;
+   margin-bottom: 0;
+}
+
+.row{
+    display: flex;
+
+}
+
+.Seconddiv{
+    background-color: aquamarine;
+    height: 400px;
+    width: 60%;
+    margin: 2%;
+    margin-right: 0;
+}
+
+.Thirddiv{
+    background-color: beige;
+    height: 400px;
+    width: 40%;
+    margin: 2%;
+    
+}
+
+.Fourthdiv{
+    background-color: blueviolet;
+    height: 100px;
+    margin: 2%;
+    margin-top: 0;
+}
