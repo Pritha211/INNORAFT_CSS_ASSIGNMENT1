@@ -5,37 +5,51 @@ body{
    height: 100vh;
 }
 
-.firstdiv{
-   background-color: pink;
-   height: 100px;
-   margin: 2%;
-   margin-bottom: 0;
+.page-wrapper{
+    max-width: 96%;
+    margin: 0 auto;
 }
 
-.row{
-    display: flex;
+.firstdiv{
+   background-color: rgb(212, 95, 114);
+   height: 100px;
+   margin: 10px 0 30px;
+}
 
+.second-wrapper{
+    /* display: block; */
+    float: left;
+    width: 100%;
 }
 
 .Seconddiv{
-    background-color: aquamarine;
+    background-color: rgba(247, 46, 77, 0.932);
     height: 400px;
-    width: 60%;
-    margin: 2%;
-    margin-right: 0;
+    width: 59%;
+    margin-bottom: 30px;
+    /* margin-right: 10px; */
+    float: left;
+    margin-top: 0;
+    
 }
 
 .Thirddiv{
-    background-color: beige;
+    background-color: rgb(211, 79, 79);
     height: 400px;
     width: 40%;
-    margin: 2%;
+    margin-bottom: 30px;
+    float: right;
+    margin-top: 0;
+    
     
 }
 
 .Fourthdiv{
-    background-color: blueviolet;
+    background-color: rgb(98, 6, 6);
     height: 100px;
-    margin: 2%;
+    margin-bottom: 30px;
+    float: left;
+    width: 100%;
     margin-top: 0;
+    
 }
